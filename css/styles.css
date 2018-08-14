@@ -1,0 +1,124 @@
+/*content style (text=pageContent)*/
+
+@media print {
+    #menu, #logo, #sidebar {display:none}
+}
+
+body {
+    background-color: slategray;
+    margin-top: 80px;
+}
+
+a {
+    text-decoration: underline;
+    color: inherit;
+}
+
+.center-block {
+    float: none;
+}
+
+/* blue-sky color: #add9f6 */
+
+.jumbotron, #innerBody {
+    background-color: white;
+}
+
+.jumbotron {
+    padding: 0;
+    margin: 0;
+}
+
+#innerBody {
+    padding: 0;
+    padding-top: 10px;
+    margin: 0;
+    color: black;
+}
+
+#footer {
+    min-height: 10rem;
+    background-color: #111111;
+    color: white;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+#faqs, #aboutText {
+    font-family: 'Maven Pro', sans-serif;
+    padding-right: 3rem;
+    padding-top: 1rem;
+}
+
+#faqs li {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-weight: 700;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.middleNavBtn {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 1.35rem;
+    width: 16rem;
+    position: relative;
+    margin-top: -75px;
+    opacity: 0.8;
+}
+
+.middleNavBtn:hover {
+    opacity: 1;
+    font-weight: 700;
+}
+
+.boxheader {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight: 900;
+	color: #EAF000;
+	margin: 0;
+    text-align: center;
+    background-color: #D70023;
+    height: 40px;
+    width: 98%;
+    padding: 5px 0px 0px 0px;
+    border: 5px solid black;
+    border-radius: 6px
+}
+
+.boxcontent {
+	color: #003399; 
+	font-family: 'PT Serif', serif;
+    background-color: white;
+    width: 98%;
+    /* max-width: 334px; */
+    height: 90%;
+    margin: 0px 0px 0px 0px;
+    text-align: left; 
+    padding-top: 0px;
+    padding-right: 0px;
+    border: 3px solid black;
+}
+
+.bulletlist {
+    list-style-image: url('/images/bullet2.gif');
+    padding: 1px 3px 1px 3px; 
+    margin-left: 25px;
+}
+
+#search {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.myButton {
+    width: 12.25em;
+    background-color: #D4001A;
+    color: white;
+    font-weight: bold;
+    margin: 10px;
+    box-shadow: inset 3px 3px 3px rgba(233, 125, 138, 0.8), inset -3px -3px 6px rgba(43, 0, 8, 0.8);
+    -moz-box-shadow: inset 3px 3px 3px rgba(233, 125, 138, 0.8), inset -3px -3px 6px rgba(43, 0, 8, 0.8);
+    -webkit-box-shadow: inset 3px 3px 3px rgba(233, 125, 138, 0.8), inset -3px -3px 6px rgba(43, 0, 8, 0.8);
+}
