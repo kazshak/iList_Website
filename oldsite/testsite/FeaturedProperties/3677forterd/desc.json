@@ -1,0 +1,57 @@
+{
+    "address":"3677 FORTE RD",
+    "frontImage":"frontview.jpg",
+    "price":148850,
+    "sqft":1540,
+    "beds":4,
+    "baths":1,
+    "closedDate":"2009-09-09",
+    "listDate":"2009-06-30",
+    "sold":true,
+    "salesPrice":145850,
+    "yearBuilt":1947,
+    "lotSize":1.89,
+    "flyer":"buyerfullreport_3677forterd.pdf",
+    "pics":[
+        {
+            "file":"frontview.jpg",
+            "caption":"1.89 BEAUTIFUL ACRES W/BACK & SIDE YARDS TOTALLY FENCED~DEAD-END STREET~EASY ACCESS TO I-24 & JUST MINUTES TO NASHVILLE~NEWER ROOF, HVAC, TILE KITCHEN COUNTER TOPS~UPDATED BATH W/TILE SHOWER~UPDATED PLUMBING LINES & SERVICE~OVERSIZED CARPORT~RARE FIND! ~LAUNDRY ROOM~CLEAN FULL BASEMENT~DETACHED STORAGE/WORKSHOP W/WINDOWS~TREE LINED IN BACK OF PROPERTY"
+        },
+        {
+            "file":"Image00005.jpg",
+            "caption":"EXTRA LARGE EAT-IN KITCHEN~NEWER TILE KITCHEN COUNTER TOPS"
+        },
+        {
+            "file":"Image00004.jpg",
+            "caption":"REFRIGERATOR, STOVE REMAIN"
+        },
+        {
+            "file":"Image00001.jpg",
+            "caption":"LIVING ROOM"
+        },
+        {
+            "file":"Image00002.jpg",
+            "caption":"MASTER BEDROOM"
+        },
+        {
+            "file":"Image00003.jpg",
+            "caption":"BUILT-INS IN MASTER BEDROOM"
+        },
+        {
+            "file":"Image00009.jpg",
+            "caption":"GREAT UPDATED BATH WITH TILE FLOORING, TILED WALLS"
+        },
+        {
+            "file":"Image00008.jpg",
+            "caption":"DOUBLE TILE SHOWER WITH GLASS DOOR"
+        },
+        {
+            "file":"Image00011.jpg",
+            "caption":"DETACHED STORGE/WORKSHOP WITH WINDOWS AND DOORS ON EACH END"
+        },
+        {
+            "file":"Image00007.jpg",
+            "caption":"TREE-LINED BACK YARD"
+        }
+    ]
+  }
