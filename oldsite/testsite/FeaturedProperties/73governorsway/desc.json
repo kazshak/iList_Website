@@ -1,0 +1,133 @@
+{
+    "address": "73 GOVERNORS WAY",
+    "frontImage": "porch.jpg",
+    "price": 729900,
+    "sqft": 4769,
+    "beds": 4,
+    "baths": 3.5,
+    "closedDate": "",
+    "listDate": "2016-10-21",
+    "sold": false,
+    "salesPrice": 0,
+    "yearBuilt": 2005,
+    "lotSize": 0.53,
+    "flyer":"73 GW MLS listing.pdf",
+    "pics":[
+        {
+            "file":"porch.jpg",
+            "caption":"WELCOME HOME!  THIS HOME IS WELCOMING AND VERY COMFORTABLE."
+        },
+        {
+            "file":"entrance gate.jpg",
+            "caption":"THE 24 HOUR GUARD GATED ENTRANCE TO YOUR NEW ADDRESS."
+        },
+        {
+            "file":"governors c sign.jpg",
+            "caption":"THE GOVERNORS CLUB IS THE PREMIER PRIVATE GOLF CLUB COMMUNITY IN MIDDLE TENNESSEE."
+        },
+        {
+            "file":"golf course.jpg",
+            "caption":"ARNOLD PALMER SIGNATURE GOLF COURSE.  MEMBERSHIP IS OPTIONAL."
+        },
+        {
+            "file":"brick and rod iron.jpg",
+            "caption":"BEAUTIFUL STACKED STONE AND ROD IRON ACCENTS."
+        },
+        {
+            "file":"FullSizeRender (4).jpg",
+            "caption":"HOME IS SITUATED ON A SLIGHT INCLINE WITH EXTRAORDINARY VIEWS."
+        },
+        {
+            "file":"kit from livrm.jpg",
+            "caption":"GRANITE COUNTER TOPS AND TILE BACK-SPLASH. EVERYONE FEELS WELCOME IN THIS SPACIOUS KITCHEN."
+        },
+        {
+            "file":"kitchen cabs.jpg",
+            "caption":"PLENTY OF CABINETS AND A PANTRY. NEW OVEN, MICROWAVE AND DISHWASHER."
+        },
+        {
+            "file":"dining.jpg",
+            "caption":"DINING ROOM JUST OFF OF THE KITCHEN."
+        },
+        {
+            "file":"Den.jpg",
+            "caption":"TWO STORY FAMILY ROOM, BUILT-INS AND GAS FIREPLACE."
+        },
+        {
+            "file":"den 2.jpg",
+            "caption":"FAMILY ROOM, LARGE AND OPEN, FLOOR TO CEILING STONE FIREPLACE WALL, FLOOR TO CEILING WINDOWS AND WINDOW TREATMENTS."
+        },
+        {
+            "file":"hall.jpg",
+            "caption":"TWO STORY FOYER WITH EXPOSED BRICK AND HARDWOOD FLOORING THROUGH-OUT."
+        },
+        {
+            "file":"arch.jpg",
+            "caption":"ARCHED BRICK ENTRANCE INTO THE LIVING ROOM. PERFECT ROOM TO READ A BOOK BY THE 2 SIDED FIREPLACE."
+        },
+        {
+            "file":"office.jpg",
+            "caption":"OFFICE WITH PANE GLASS FRENCH DOORS."
+        },
+        {
+            "file":"master bath.jpg",
+            "caption":"MASTER BATH WITH HIS & HERS VANITIES, LARGE WALK IN SHOWER."
+        },
+        {
+            "file":"master bed.jpg",
+            "caption":"MASTER SUITE INCLUDES HIS & HERS CLOSETS, PLANTATION SHUTTERS AND NATURISTIC VIEW."
+        },
+        {
+            "file":"side bonus rm.jpg",
+            "caption":"TAKE THREE STEPS DOWN INTO ADDITIONAL BONUS ROOM SPACE. PERFECT SPACE TO EXERCISE. ENDLESS POSSIBILITIES."
+        },
+        {
+            "file":"desk.jpg",
+            "caption":"UPSTAIRS PLANNING STATION."
+        },
+        {
+            "file":"bonus rm.jpg",
+            "caption":"GREAT PLACE TO WATCH THE GAME OR FOR ALL THE FRIENDS YOUR KIDS KEEP BRINGING HOME TO WATCH MOVIES!"
+        },
+        {
+            "file":"pink bd rm.jpg",
+            "caption":"LARGEST OF 3 UPSTAIRS BEDROOMS."
+        },
+        {
+            "file":"green bedrm.jpg",
+            "caption":"SPACIOUS UPSTAIRS BEDROOM."
+        },
+        {
+            "file":"upstairs hall.jpg",
+            "caption":"UPSTAIRS HALLWAY. NEWER HARDWOOD FLOORING IN THE WHOLE UPSTAIRS. THE HOME HAS TWO STAIRCASES."
+        },
+        {
+            "file":".5 bath.jpg",
+            "caption":"POWDER ROOM WITH CUSTOM STONE SINK."
+        },
+        {
+            "file":"back house and patio.jpg",
+            "caption":"PATIO JUST OFF OF KITCHEN. DIRECT GAS LINE TO THE GAS GRILL. ENJOY THE BIRDS, SQUIRRELS, RABBITS AND DEER. NATURE AT IT'S BEST."
+        },
+        {
+            "file":"blue bed room.jpg",
+            "caption":"SPACIOUS UPSTAIRS BEDROOM."
+        },
+        {
+            "file":"view.jpg",
+            "caption":"VIEW FROM BONUS ROOM WINDOW."
+        },
+        {
+            "file":"from front porch.jpg",
+            "caption":"VIEW FROM FRONT PORCH."
+        },
+        {
+            "file":"backyard woods.jpg",
+            "caption":"BRING YOUR HAMMOCK, UNWIND, RELAX, AND WATCH THE DEER IN THIS PRIVATE BACKYARD."
+        },
+        {
+            "file":"front driveway.jpg",
+            "caption":"FRONT VIEW."
+        }
+    ]
+}
