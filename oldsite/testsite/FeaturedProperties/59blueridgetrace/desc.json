@@ -1,0 +1,57 @@
+{
+    "address": "59 BLUE RIDGE TRCE",
+    "frontImage": "front.jpg",
+    "price": 453900,
+    "sqft": 3752,
+    "beds": 3,
+    "baths": 3.5,
+    "closedDate": "2007-06-18",
+    "listDate": "2007-02-28",
+    "sold": true,
+    "salesPrice": 448000,
+    "yearBuilt": 2000,
+    "lotSize": 0,
+    "flyer":"59blueridgetrace_flyer.pdf",
+    "pics":[
+        {
+            "file":"front.jpg",
+            "caption":"EXQUISITE CUSTOM BUILT HOME~EUROPEAN ARCHITECTURE~ 3 BEDROOMS ON THE MAIN~ GOURMET ISLAND KITCHEN~CHERRY CABINETS~STAINLESS APPLIANCES~BEAUTIFUL STUDY W/ BUILT-INS~EXTENSIVE WOODWORK &amp; MOLDINGS THROUGHOUT~FRENCH DOORS~BEVELED GLASS~MARBLE FOYER &amp; MORE"
+        },
+        {
+            "file":"kitchen.jpg",
+            "caption":"EXQUISITE CUSTOM BUILT HOME~EUROPEAN ARCHITECTURE~3 BEDROOMS ON MAIN LEVEL~BONUS COULD BE 4TH BEDROOM WITH FULL BATH~600 SQ FT UNFINISHED SPACE TO EXPAND"
+        },
+        {
+            "file":"diningroom.jpg",
+            "caption":"FORMAL DINING ROOM FEATURES ORNATE TREY CEILING WITH MEDALLION-BASED LIGHTING AND RICH HARDWOOD FLOORS"
+        },
+        {
+            "file":"livingroom.jpg",
+            "caption":"EXTENSIVE WOODWORKING AND MOLDINGS THROUGHOUT~GAS LOG FIREPLACE~UPGRADES GALORE"
+        },
+        {
+            "file":"office.jpg",
+            "caption":"LARGE LIGHT AND BRIGHT STUDY W/CUSTOM BUILT-INS &amp; WORK AREA"
+        },
+        {
+            "file":"gatheringroom.jpg",
+            "caption":"VERY OPEN AND SPACIOUS EAT IN KITCHEN AND KEEPING ROOM WITH A STUNNING OCTAGON TREY CEILING"
+        },
+        {
+            "file":"masterbath1.jpg",
+            "caption":"MBR BATH W/DOUBLE VANITIES~OVERSIZED SEPARATE SHOWER~JACUZZI TUB~ELEGANT DETAILING~EXTRA LARGE WALK THROUGH CLOSET TO LAUNDRY ROOM W/BUILT-IN ORGANIZERS"
+        },
+        {
+            "file":"masterbath2.jpg",
+            "caption":"MASTER BATH"
+        },
+        {
+            "file":"masterbath3.jpg",
+            "caption":"MOLDINGS IN MASTER BATH"
+        },
+        {
+            "file":"backyard.jpg",
+            "caption":"ENJOY THE OUTSIDE LIVING AREA~COVERED PORCH~PATIO~ LARGE LEVEL BACKYARD"
+        }
+    ]
+}
