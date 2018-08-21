@@ -1,0 +1,57 @@
+{
+    "address":"2005 CHOCTAW RDG",
+    "frontImage":"frontview.jpg",
+    "price":249900,
+    "sqft":2690,
+    "beds":3,
+    "baths":2.5,
+    "closedDate":"2009-08-14",
+    "listDate":"2009-04-28",
+    "sold":true,
+    "salesPrice":249900,
+    "yearBuilt":1998,
+    "lotSize":0,
+    "flyer":"2005choctawridge_buyer_full_report.pdf",
+    "pics":[
+        {
+            "file":"frontview.jpg",
+            "caption":"ONE LEVEL LIVING AT IT'S FINEST! SPACIOUS SPLIT FLOOR PLAN W/ALL 9 &15 Ft. SOARING CEILINGS & BEAUTIFUL UPGRADES~GORGEOUS MASTER SUITE~CUSTOM OAK KITCHEN CABINETRY~PLANTATION SHUTTERS~CERAMIC TILE IN FOYER & IN 2 BATHS~FIREPLACE~HUGE YARD & 2 CAR GARAGE!"
+        },
+        {
+            "file":"masterbath2.jpg",
+            "caption":"MASTER BATH WITH SEPARATE GARDEN TUB AND SHOWER~ EXTRA LARGE WALK-IN CLOSET"
+        },
+        {
+            "file":"greatroom.jpg",
+            "caption":"EXTREMELY SPACIOUS GREAT ROOM THAT IS OPEN TO KITCHEN~SOARING CEILINGS~GAS FIREPLACE"
+        },
+        {
+            "file":"kitchen.jpg",
+            "caption":"EXTRA LARGE EAT-IN KITCHEN WITH PANTRY~BEAUTIFUL CUSTOM OAK CABINETRY"
+        },
+        {
+            "file":"breakfast.jpg",
+            "caption":"BREAKFAST AREA WITH A VIEW OF THE BEAUTIFUL TREES IN THE BACK YARD~OPEN AND BRIGHT"
+        },
+        {
+            "file":"masterbedrm.jpg",
+            "caption":"THE MASTER SUITE IS VERY ELEGANT AND SPACIOUS"
+        },
+        {
+            "file":"diningroom.jpg",
+            "caption":"BEAUTIFUL DINING ROOM WITH 15FT CEILINGS~NEW LIGHT FIXTURE"
+        },
+        {
+            "file":"masterbath1.jpg",
+            "caption":"MASTER BATH HAS DOUBLE VANITIES~NEW TILE FLOORING"
+        },
+        {
+            "file":"bedroom3.jpg",
+            "caption":"WONDERFUL GUEST BEDROOM"
+        },
+        {
+            "file":"deck.jpg",
+            "caption":"GREAT SPOT TO ENJOY YOUR MORNING COFFEE~DECK IS PARTIALLY COVERED WITH CEILING FAN~DON'T PURCHASE A HOME UNTIL YOU HAVE SEEN THIS ONE~IT IS A GREAT HOME!"
+        }
+    ]
+  }
