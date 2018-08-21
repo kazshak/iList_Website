@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<head>
+    <title></title>
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Sans+Mono|Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href="css/ilist2_bootstrap.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <script src="jQuery/jquery-2.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    
+</head>
+<body ng-app="ilist" ng-controller="FeaturedListingController as featureCtrl">
+
+    <nav class="navbar navbar-fixed-top navbar-default" role="navigation">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="images/Logo_Sml.gif" class="img-responsive" /></a>
+            <h1 class="col-sm-7"><strong>Featured Listings</strong></h1>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <ul class="nav navbar-nav topNav navbar-right collapse navbar-collapse">
+                <li class="active"><a href="index.html">Home</a></li>
+<!--
+                <li><a href="#FAQModal" data-toggle="modal">FAQs</a></li>
+                <li><a href="#AboutUs" data-toggle="modal">About Us</a></li>
+                <li><a href="#PricingOptions">Pricing Options</a></li>
+                <li><a href="#">Featured Listings</a></li>
+-->                
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="container-fluid fill" style="height: 100%;" ng-init="featureCtrl.init()">
+        <div class="container-fluid topSpacer"></div>
+        <div class="container col-lg-3 col-md-4 col-sm-5 col-lg-offset-0 col-md-offset-0 col-sm-offset-0" ng-repeat="property in featureCtrl.properties">
+            <div class="panel" ng-class="property.sold ? 'panel-default' : 'panel-info'" data-toggle="modal" data-target="#PropertyModal" ng-click="featureCtrl.showProperty(property)">
+                <div class="panel-heading">
+                    {{ property.address }}
+                </div>
+                <div class="panel-body">
+                    <div class="img-reponsive col-lg-6 col-md-6 col-sm-6">
+                        <img ng-src="{{property.filePath + property.frontImage}}" height="150px" width="100%" />
+                    </div>
+                    <div class="container col-lg-6 col-md-6 col-sm-6">
+                        <h4><strong>{{ (property.sold) ?property.salesPrice : property.price | currency:"$":0 }}</strong></h4>
+                        {{property.sqft | number:0}} sq. ft.<br/>
+                        {{property.beds | number:0}} bedrooms<br/>
+                        {{property.baths | number:2}} baths<br/>
+<!--                        <span ng-show="property.sold">Sold: {{ property.closedDate }}<br /></span> -->
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="modal fade" id="PropertyModal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" ng-click="featureCtrl.showCaptions = true;"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h3 class="modal-title">{{ featureCtrl.proptoshow.address }}<span class="pull-right">{{ (featureCtrl.proptoshow.sold) ? featureCtrl.proptoshow.salesPrice : featureCtrl.proptoshow.price | currency:"$":0 }}</span></h3>
+                </div>
+                <div class="modal-body">
+                    <div id="propPicCarousel" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="item" ng-class="{ active : $first }" ng-repeat="pic in featureCtrl.proptoshow.pics">
+                                <img class="img-responsive img-rounded center-block" ng-src="{{featureCtrl.proptoshow.filePath + pic.file}}">
+                                <div class="carousel-caption" ng-show="featureCtrl.showCaptions && (pic.caption !=='')">
+                                    <p>{{pic.caption}}</p>
+                                </div>
+
+                            </div>
+                            <a class="left carousel-control" href="#propPicCarousel" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a class="right carousel-control" href="#propPicCarousel" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-default" ng-click="featureCtrl.toggleCaptions()"><span ng-show="featureCtrl.showCaptions">Hide Captions</span><span ng-show="!featureCtrl.showCaptions">Show Captions</span></button>
+                    <a href="{{featureCtrl.proptoshow.filePath + featureCtrl.proptoshow.flyer}}" target="_blank" ng-show="featureCtrl.proptoshow.flyer !== ''"><button class="btn btn-primary">Get Flyer</button></a>
+                    <button class="btn" data-dismiss="modal" aria-hidden="true" ng-click="featureCtrl.showCaptions = true;">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!-- Javascript App Files -->
+    
+</body>

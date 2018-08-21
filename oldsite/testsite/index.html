@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Sans+Mono|Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href="css/ilist2_bootstrap.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <script src="jQuery/jquery-2.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+</head>
+<body ng-app="ilist">
+
+    <nav class="navbar navbar-fixed-top navbar-default" role="navigation">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="images/Logo_Sml.gif" class="img-responsive" /></a>
+            
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <ul class="nav navbar-nav topNav navbar-right collapse navbar-collapse">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#FAQModal" data-toggle="modal">FAQs</a></li>
+                <li><a href="#AboutUs" data-toggle="modal">About Us</a></li>
+                <li><a href="#PricingOptions">Pricing Options</a></li>
+                <li><a href="FeaturedListings.html">Featured Listings</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid jumbotron" >
+<!--        <div class="carousel-container"> -->
+                <div id="introCarousel" class="carousel slide img-responsive" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#introCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#introCarousel" data-slide-to="1"></li>
+                        <li data-target="#introCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="TmpImg/Image00001.jpg" class="img-responsive img-rounded" style="image-rendering: optimizeQuality;" />
+                        </div>
+                        <div class="item">
+                            <img src="TmpImg/photo2.jpg" class="img-responsive" style="image-rendering: optimizeQuality;" />
+                        </div>
+                        <div class="item">
+                            <img src="TmpImg/photo3.jpg" class="img-responsive" style="image-rendering: optimizeQuality;" />
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="#soldCarousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#soldCarousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+<!--                </div> -->
+            </div>
+            <div class="mainPageTitle">
+                <h1>Welcome To iList Realty</h1>
+                <h2><em>"An Innovative And Modern Approach To Buying And Selling Your Home, That Can Save You Thousands Of Dollars."</em></h2>
+            </div>
+        </div>
+        <div class="container col-lg-12 col-md-12 col-sm-12 col-xs-0">
+            <nav class="navbar navbar-default collapse navbar-collapse leftNav" role="navigation" >
+
+                    <ul class="nav navbar-nav" role="tablist">
+<!--                         <li class="col-sm-0 col-xs-0 col-md-1 col-lg-1"></li> -->
+                        <li class="active"><button class="btn btn-lg btn-info mainpgbtn dropdown-toggle" role="tab" data-toggle="modal" data-target="#PreparingToSell">Selling A<br />House?</button>
+                        </li>
+                        <li>&nbsp; &nbsp;</li>
+                        <li class="active"><button class="btn btn-lg btn-info mainpgbtn dropdown-toggle" role="tab" data-toggle="modal" data-target="#HowToBuyAHouse">Buying A<br />House?</button>
+                        </li>
+                        <li>&nbsp; &nbsp;</li>
+                        <li class="active"><button class="btn btn-lg btn-info mainpgbtn dropdown-toggle" role="tab" data-toggle="modal" data-target="#WhatsMyHouseWorth">What's My<br/>House Worth?</button>
+                        </li>
+                        <li>&nbsp; &nbsp;</li>
+                        <li class="dropdown dropup active">
+                            <button class="btn btn-lg btn-info mainpgbtn dropdown-toggle" role="tab" data-toggle="dropdown" >Search<br />Properties</button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li role="presentation"><a role="menuitem" href="FeaturedListings.html">Featured Listings</a></li>
+                                <li role="presentation"><a role="menuitem" href="SearchMiddleTnMls.html">Search The MLS</a></li>
+                            </ul>
+                        </li>
+                        <li>&nbsp; &nbsp;</li>
+                        <li class="active"><button class="btn btn-lg btn-info mainpgbtn" role="tab" data-toggle="modal" data-target="#FAQModal" >FAQ&nbsp;&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-arrow-right"></span></button></li>
+                        <li>&nbsp; &nbsp;</li>
+                        <li class="active"><button class="btn btn-lg btn-primary mainpgbtn" role="tab" data-toggle="modal" data-target="#ContactUs" >Contact Us</button></li>
+                    </ul>
+
+            </nav>
+        </div>
+<!--
+    <div class="container col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <h1>Welcome To iList Realty</h1>
+            <h2><em>"An Innovative And Modern Approach To Buying And Selling Your Home, That Can Save You Thousands Of Dollars."</em></h2>
+            <br />
+
+<!-- Old Photo Carousel 
+            
+            <div class="container-fluid carousel-container">
+                <div id="soldCarousel" class="carousel slide img-responsive" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#soldCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#soldCarousel" data-slide-to="1"></li>
+                        <li data-target="#soldCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="SoldProperties/59blueridgetrace/front.jpg" class="img-responsive img-rounded" style="image-rendering: optimizeQuality;" />
+                        </div>
+                        <div class="item">
+                            <img src="SoldProperties/100windmillpointecir/frontview.jpg" class="img-responsive" style="image-rendering: optimizeQuality;" />
+                        </div>
+                        <div class="item">
+                            <img src="SoldProperties/1052dorsetdr/frontview.jpg" class="img-responsive" style="image-rendering: optimizeQuality;" />
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="#soldCarousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#soldCarousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
+            </div>  
+
+        </div> -->
+    <span id="PricingOptions"></span>
+    
+<!-- Three Panels -->
+    
+    <div class="container col-lg-3 col-md-5 col-sm-5 col-lg-offset-1 col-md-offset-1 col-sm-offset-1" id="fullServiceListing">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                FULL SERVICE LISTING
+            </div>
+            <div class="panel-body" style="height: 390px;">
+                <ul class="list-unstyled" style="">
+                    <li><p><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;<b>No up-front fee</b></p></li>
+                    <li><p><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;1.5% of sales price at closing</p></li>
+                    <li><p><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Comprehensive pricing analysis</p></li>
+                    <li><p><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Up to <a href="59blueridgetrace/main.html" target="_blank">10 color photos</a></p></li>
+                    <li><p></p><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Listed in <a href="FeaturedListings.php" target="_blank">Featured Listings</a></li>
+                    <li><p><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;<a href="59blueridgetrace/59blueridgetrace_flyer.pdf" target="_blank">Flyer </a>& flyer box</p></li>
+                    <li><p><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Lockbox provided</p></li>
+                    <li><p><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;iList Realty <a href="images/forsalesign.jpg" target="_blank">For Sale sign</a></p></li>
+                    <li><p><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Disclosure forms</p></li>
+                    <li><p><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Negotiate contracts</p></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container col-lg-3 col-md-5 col-sm-5" id="mlsFlatFeeListing">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                MLS FLAT FEE LISTING
+            </div>
+            <div class="panel-body" style="height: 390px;">
+                <ul class="list-unstyled">
+                    <li><p><b style="font-family:Verdana, Arial, Helvetica, sans-serif;">$499 Up-Front Fee Only</b></p></li>
+                    <li><p><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;List your property for up to 6 months</p></li>
+                    <li><p><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;2 color photos</p></li>
+                    <li><p><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;iList Realty For Sale sign</p></li>
+                    <li alt="Nashville Real Estate Flat Fee"><p><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Option to lease lockbox</p></li>
+                    <br /><br />
+                    <li><b style="font-family:Verdana, Arial, Helvetica, sans-serif;">$499 Up-Front Fee + 1% At Closing</b></li>
+                    <li alt="Nashville Real Estate Flat Fee"><p><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;6 color photos</p></li>
+                    <li alt="Nashville Real Estate Flat Fee"><p><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Lockbox provided</p></li>
+                    <li alt="Nashville Real Estate Flat Fee"><p><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Disclosure forms</p></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container col-lg-3 col-md-5 col-sm-5 col-lg-offset-0 col-md-offest-1 col-sm-offset-1" id="currentMortgageRate">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                CURRENT MORTGAGE RATES
+            </div>
+            <div class="panel-body" style="height: 390px;">
+                <script type="text/javascript" src="http://www.mlcalc.com/jquery.js"></script>
+                <div style="font-weight:normal;font-size:9px;font-family:Tahoma;padding:0;margin:0;border:0;background:transparent;color:#E5E5E5;width:300px;text-align:right;padding-right:10px;" id="mlcalcRatesWidgetHolderXX">
+                    <script type="text/javascript" src="http://www.mlcalc.com/mortgage-rates/widget-wide.js"></script>
+                    Powered by <a href="http://www.mlcalc.com/mortgage-rates/" style="color:#E5E5E5;text-decoration:none">Mortgage Rates</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Mortgage Calc Widget -->
+
+    <div class="well-lg col-lg-2 col-sm-2" id="mlcalcWidget">
+        <script type="text/javascript">
+            <!--
+            mlcalc_default_calculator = 'loan_only';
+            mlcalc_currency_code      = 'usd';
+            mlcalc_amortization       = 'year_nc';
+            mlcalc_purchase_price     = '300,000';
+            mlcalc_down_payment       = 'null';
+            mlcalc_mortgage_term      = '30';
+            mlcalc_interest_rate      = '4.0';
+            mlcalc_property_tax       = 'null';
+            mlcalc_property_insurance = 'null';
+            mlcalc_pmi                = 'null';
+            mlcalc_loan_amount        = '250,000';
+            mlcalc_loan_term = '30';//-->
+        </script>
+        <script type="text/javascript" src="http://www.mlcalc.com/jquery.js"></script>
+        <div id="mlcalcWidgetHolder">
+            <script type="text/javascript" src="http://www.mlcalc.com/widget-narrow.js"></script>Powered by <a href="http://www.mlcalc.com/" style="color:#E5E5E5;text-decoration:none">Mortgage Calculator</a>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    <br /><br />
+    
+<!-- Logo And Contact Information -->
+        
+        <div class="container col-lg-12 col-md-12 col-sm-12 col-xs-12 col-lg-offset-0 col-md-offset-0 col-sm-offset-0 col-xs-offset-0">
+            
+            <div class="container pull-left col-lg-2 col-md-3 col-sm-4 col-xs-4">
+                <address>
+                    <h3 title="Principal Broker"><strong>Brenda Shakir </strong><h5>Principal&nbsp;Broker</h5></h3>
+                    <span title="Phone"><h3>615.969.4118</h3></span>
+                    <span title="Phone">615.991.9809<br /></span>
+                    <span title="Fax">615.827.0070 fax</span><br />
+                    <span title="email"><a href="mailto:bshakir@ilistrealty.net">bshakir@ilistrealty.net</a></span>
+                    <br /><br /><br />
+                </address>
+             </div>
+            <div class="container pull-right col-lg-2 col-md-3 col-sm-4 col-xs-4">
+                <img src="images/Logo_Sml.gif" class="img-responsive" /><br />
+                <h4>Save Thousands</h4>
+                <h6>On Real Estate Commission</h6>
+                <span style="padding-left: 30%;"><img src="images/Realtor_logo.jpg" width="15%" height="15%" />&nbsp;&nbsp;<img src="images/eho.gif" width="15%" height="15%" style="background-color: #fff;" /></span>
+            </div>
+        </div>
+    <div class="clearfix"></div>
+    <br /><br />
+    
+
+
+    
+    
+<!-- Page Footer -->
+    
+    <div class="container-fluid" id="pageFooter">
+        <div class="col-lg-6 col-lg-offset-4">
+            <nav class="navbar" role="navigation">
+
+                <ul class="nav navbar-nav" style="padding-top: 50px;">
+
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#FAQModal" data-toggle="modal">FAQs</a></li>
+                    <li><a href="#AboutUs" data-toggle="modal">About Us</a></li>
+                    <li><a href="#">Pricing Options</a></li>
+                    <li><a href="#">Featured Listings</a></li>
+                </ul>
+
+            </nav>
+        </div>
+    </div>
+
+<!-- Various Modals -->
+    
+    <div class="modal" id="FAQModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h3 class="modal-title"><u><b>F</b></u>requently <u><b>A</b></u>sked <u><b>Q</b></u>uestions</h3>
+                </div>
+                <div class="modal-body">
+                    <dl>
+                        <dt>1. The MLS &amp; How It Works</dt>
+                        <dd><p>The MLS (Multiple Listing Service) local database is the most powerful tool used by real estate agents to find a home for the buyers they represent. Agents  check the MLS for homes meeting the buyer's criteria. They can search by numerous categories, including area, price, square footage, number of bedrooms, number of baths, and much more.</p></dd>
+                        <dd><p>When an agent finds a home they want to show to their buyer, they call the telephone number on the listing (this may be the phone number of the seller, the listing agent, or a centralized call center) and schedule an appointment to show the home on a specific day, at a specific time. </p></dd>
+                        <dt>2. Why Use A Lockbox?</dt>
+                        <dd><p>Lockboxes are not required, but they are ideal for having secure and convenient home showings. Agents are more likely to  show your home because they know buyers spend more time in homes where the seller is not present, and those buyers are more likely to buy. Sellers prefer a lockbox because it allows agents to show the home when the seller is at work or away. Lockboxes also enable last-minute and short notice showings, which often are the best, most motivated buyers (such as relocation buyers in town for a short time who need to buy a home quickly). </p></dd>
+                        <dt>3. What Is A CMA?</dt>
+                        <dd><p>CMA stands for <strong>C</strong>omparative <strong>M</strong>arket <strong>A</strong>nalysis. Your Realtor can help you determine the value of your home or the home you are considering purchasing, by examinimg all of the similar homes nearby. Specifically, your Realtor will provide the selling prices for similar size homes that have sold in the area in the recent months. Additionally, your Realtor can provide you with the active listings in the area, and the current asking price. Armed with this information, you can more intelligently price your home to sell, or make an appropriate offer on a home you want to buy. </p></dd>
+                        <dt>4. Sell As Fast As Full Priced Agent Listed Home</dt>
+                        <dd><p>The listing process is the same regardless of whether you list your home with us or a full priced real estate agent. With the cooperating commission you offer, your listing looks the same as other homes for sale by full priced agents. Agents are just as motivated to sell your home as any other home for sale. Nearly every local real estate company participates in the MLS. The MLS listing puts thousands of agents to work selling your home!</p></dd>
+                    </dl>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="AboutUs">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h3 class="modal-title">About Us</h3>
+                </div>
+                <div class="modal-body">
+                    <p>We are an innovative real estate firm, offering a full  range of services priced to meet your needs. We are located in Nashville,  Tennessee and cover all of the surrounding areas of Hendersonville, Gallatin,  Belle Meade, Bellevue, Green Hills, Forrest Hills, Brentwood, Franklin.  We offer a Flat Fee MLS listing service, and  additionally offer full service listing options at half the cost of traditional  agents.</p>
+                    <p>Our approach to selling your home will allow you all of the  benefits and convenience of working with a real estate agent, while offering  you the low cost of a For Sale By Owner.   We strongly believe that the real estate industry is undergoing a  dramatic change.  Sellers are much  smarter about the value of their homes, and how to market their property.  Buyers have access to tremendous amounts of  information via the internet that allows them to quickly decide which homes  they are most interested in seeing.  The  role of the Realtor has changed from being a real estate consultant to the  homebuyer or seller, to more of a transaction facilitator, who helps make sure  each party is able to complete the transaction smoothly.</p>
+                    <p>The are many advantages of using the iList Realty Flat Fee  MLS listing service:</p>
+                    <ul type="disc">
+                        <li>
+                            <p>A licensed broker will list your home in the Middle Tennessee Multiple Listing Service (MLS)</p>
+                        </li>
+                        <li>
+                            <p>This is the same MLS that is available to all Realtors seeking homes for buyers</p>
+                        </li>
+                        <li>
+                            <p>Additionally, your home listing will appear across the internet on sites such as <a href="http://realestate.yahoo.com/" target="_blank">Yahoo.com</a>, <a href="http://realestate.aol.com/" target="_blank">AOL</a>, <a href="http://www.realtor.com/" target="_blank">Realtor.Com</a>, <a href="searchframeset.html">RealTracs.Com</a>, <a href="http://www.homefinder.com/tennessean/tenness/index_map.jhtml" target="_blank">Tennessean.Com,</a> and more</p>
+                        </li>
+                        <li>
+                            <p><a href="http://www.realtor.com/search/searchresults.aspx?ridagt=22490046&sby=3" target="_blank">Click here to see a sample of an iList listing on Realtor.Com </a></p>
+                        </li>
+                        <li>
+                            <p>You pay a Flat Fee for listing your home with us.  You save thousands of dollars in listing commissions</p>
+                        </li>
+                        <li>
+                            <p>You offer a Buyers Agent Commission (you choose the amount, usually between 2 and 3%), that will only be payable if an agent brings you a buyer who purchases your home</p>
+                        </li>
+                        <li>
+                            <p>You retain the right to sell your home yourself and avoid the Buyers Agent Commission, entirely, if you find the buyer yourself</p>
+                        </li>
+                        <li>
+                            <p>iList can provide you, upon your request, with high impact marketing suggestions and advice on the best listing price to achieve your goal</p>
+                        </li>
+                        <li>
+                            <p>With our full service option, we will also provide a website for your property to enhance the marketing of your home</p>
+                        </li>
+                        <li>
+                            <p><a href="960lakeviewcourt/main.html" target="_blank">Click here to see a sample of a property website we provide</a> </p>
+                        </li>
+                        <li>
+                            <p>There are no hidden charges, and we wont try to sell you anything.  We are focused on providing you a simple, convenient and inexpensive means to market your home to the largest number of buyers possible!</p>
+                        </li>
+                    </ul>
+                    <p>Led by Brenda Shakir's vision to provide Nashville and  Middle Tennessee residents greater control over the process of buying and  selling their home, we have developed three pricing options with varying levels  of broker interaction.  We are dedicated  to Nashville and the Middle Tennessee region.   Nashville is one of the fastest growing cities in this area, and the  local real estate market continues to experience substantial activity.  Major corporations are finding the benefits  of doing business and living in Middle Tennessee and Nashville very attractive.  We agree, and are very excited about the  opportunity to provide our customers with the best home selling experience  possible.</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="ContactUs" ng-controller="ContactUsController as contactCtrl">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h3 class="modal-title">Contact Us</h3>
+                    {{ contactCtrl.email.firstname + contactCtrl.email.lastname }}
+                    {{ contactCtrl.messageSent }}
+                    {{ ContactUs.$valid }}
+                </div>
+                <div class="modal-body">
+                    <form name="ContactUs" id="ContactUs" ng-show="!contactCtrl.messageSent" novalidate>
+                        <fieldset class="form-group">
+                            <input type="text" placeholder="First Name" name="FirstName" id="FirstName" style="width: 95%;" ng-model="contactCtrl.email.firstname">
+                        </fieldset>
+                        <fieldset class="form-group">
+                            <input type="text" placeholder="Last Name" name="LastName" id="label" style="width: 95%;" ng-model="contactCtrl.email.lastname">
+                        </fieldset>
+                        <fieldset class="form-group">
+                            <label for="label2">Phone Number:</label>
+                            <input type="tel" name="PhoneNumber" id="label2" ng-model="contactCtrl.email.phonenumber">
+                        </fieldset>
+                        <fieldset class="form-group">
+                            <label for="label3">E-Mail Address:</label>
+                            <input type="email" name="emailadd" id="label3" ng-model="contactCtrl.email.emailadd">
+                        </fieldset>
+                        <fieldset class="form-group">
+                        <p style="width: 200px; margin-left: 200px;" ng-init="contactCtrl.email.buysell = 'Selling'">
+                            
+                            <input ng-model="contactCtrl.email.buysell" name="BuySell" type="radio" value="Buying"> <b>Buying A Home</b><br/>
+                            <input ng-model="contactCtrl.email.buysell" name="BuySell" type="radio" value="Selling" checked> <b>Selling A Home</b><br/>
+                            <input ng-model="contactCtrl.email.buysell" type="radio" name="BuySell" value="Selling & Buying"> <b>Both</b>
+                            
+                        </p>
+                        </fieldset>
+                        <fieldset class="form-group" style="font-size:18px">
+                            <label for="textarea">Please Tell Me How I Can Help You:</label>
+                            <textarea ng-model="contactCtrl.email.body" name="comments" cols="55" rows="5" id="comments"></textarea>
+                        </fieldset>
+                    </form>
+                    <div ng-show="contactCtrl.messageSent" ><h3>Thank you for your message.  Someone will be in touch soon.</h3></div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" ng-click="contactCtrl.sendEmail(contactCtrl.email)" ng-show="!contactCtrl.messageSent">Send Message</button>
+                    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="PreparingToSell">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h3 class="modal-title">How Can You Sell Your House Quickly And For The Best Price?</h3>
+                </div>
+                <div class="modal-body">
+                    <dl>
+                        <dt>1. Improve Curb Appeal</dt>
+                        <dd><p>At the very least, buyers visiting your home will expect a decent paint job. If the body of your house is in good shape, you may just need to touch up the trim. This work will make your house stand out. A gallon of paint and a paint brush don't cost much, but they can really make a difference. Exterior paint isn't just for show. A quality paint job provides an important layer of protection against moisture, mildew, and the effects of the sun.</p></dd>
+                        <dd><p>Further, keep your yard tidy--it's one of the first things potential buyers see before entering your home. If your lawn is in pretty good shape, there's no need to hire a landscaper. The National Association Of Realtors recommends that you spend no more than 1 or 2 percent of your home's value on sprucing up landscaping before you sell. We recommend spreading mulch on beds around trees, mowing grass, and trimming shrubs and walkways. And if the season is right for blooms, place flowerpots around the entry and on the patio.</p></dd>
+                        <dt>2. Clear The Clutter</dt>
+                        <dd><p>Too much stuff makes rooms look smaller and less appealing. Keep tables and countertops clean and clear, and remove extra furniture. But don't relocate your possessions to a garage, attic, or basement. All you're doing then is cluttering another space and turning off potential buyers. If you plan to hold on to   &quot;Granny Imo's&quot; armchair and your collection of coffee mugs, consider renting a storage space. A 10' x 10' storage space ranges from about $40 to several hundred dollars a month, depending on the region.</p></dd>
+                        <dt>3. Make It Homey And Inviting</dt>
+                        <dd><p>Set the stage for comfortable living. A bright, tidy home will sell a lot faster than a dingy one,  Hang your guest towels in the bathroom, set your dinner table with your best china, and place fresh flowers in an attractive vase. Appeal to the potential buyer's sense of smell as well. Clean carpets and drapes. Empty the trash and freshen cat-litter boxes. </p></dd>
+                        <dt>4. Don't Over-Decorate</dt>
+                        <dd><p>Gold-plated faucets or a bathroom tiled in puce won't add to the value of your home. If your interior features splashy colors, or paint appears dirty or worn, repaint with neutral colors that won't feel dated. Further, simple white or beige walls provide potential homeowners with a clean slate on which they can envision their own personal touches.</p></dd>
+                        <dt>5. Fit-In With The Neighborhood</dt>
+                        <dd><p>Before you make changes to your home, take a hard look at houses in your neighborhood. You'll get the biggest bang for your buck by keeping up with the Joneses, not by going them one better. If most houses have three baths and yours has only one and a half, adding a new bathroom will boost the value of your home. The same goes for bedrooms.</p></dd>
+                        <dd><p>Elaborate and expensive window treatments featuring this season's favorite colors and tones may appear out of date next year. Kitchen appliances can also go out of style--remember avocado and burnt orange refrigerators of the 1970s? Stick with the basics and avoid being too trendy. </p></dd>
+                        <dt>6. Price To Sell</dt>
+                        <dd><p>Research prices on comparable properties in your market. Scour newspaper and Web listings, attend open houses, and, most importantly, consult your real-estate broker for <a href="RequestCMA.html">sales information on comparable properties</a>.</p></dd>
+                    </dl>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="HowToBuyAHouse">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h3 class="modal-title">What Do I Need To Consider When Buying A House?</h3>
+                </div>
+                <div class="modal-body">
+                    <dl>
+                        <dt>1. Should We Buy Now Or Wait?</dt>
+                        <dd><p>Despite years of dire warnings from some economists that the housing boom is about to end, it hasn’t. Actually, last year, prices rose even more--about 11 percent nationally; even states that suffered the lowest growth in housing values, including Indiana, Ohio, and Texas, saw increases of almost 4 percent.</p></dd>
+                        <dd><p>You can not time the real-estate market. If you need a house and can afford one, you should buy. You minimize the risk of overpaying if you can commit to living in the same home for at least three to seven years. The longer you stay, the greater the likelihood that you will recover from any market downturn. Try to keep your housing expenses, including principal, interest, taxes, and insurance, to no more than 28 to 31 percent of your income. </p></dd>
+                        <dt>2. What Is A Buyer's Agent?</dt>
+                        <dd><p>90 percent of buyers use a real-estate agent during their search. Though agents may spend hours showing houses to buyers, they collect a commission from the seller and must work on his or her behalf to get the highest sale price. As a result,  buyers sometimes ask for a “buyer’s agent” who works exclusively for them, not sellers, helping to negotiate the house price, the terms of the sale, and contract contingencies. The buyer’s agent may charge a percentage of the purchase price, a flat fee, or an hourly rate. You may feel that you need a buyer’s agent to get you through the complicated home-buying process. But you take a risk. If the seller refuses to pay the commission, you could be on the hook. When selecting a buyer's agent or a real-estate agent, be sure to discuss all commission arrangements up-front, so that you don't have any surprises later.</p></dd>
+                        <dt>3. Mortgage Broker Or Bank?</dt>
+                        <dd><p>Mortgage brokers, middlemen who shop for home buyers among banks, now dominate the market. Because brokers can choose from programs from many banks, they may be able to offer a variety of deals that are not available at your own bank: first-time-buyer programs, for example; low- or no-down-payment loans for police, firefighters, or teachers; and low-cost mortgages for energy-efficient homes.</p></dd>
+                        <dd><p>However, the bulk of a broker’s compensation comes from fees paid by the lender. Here’s a simplified example: Let’s say that a lender offers a broker a 30-year, fixed-rate mortgage at a 5.625 percent annual interest rate and 1.5 points. For selling the loan as is, the broker gets 0.5 point. The broker can pass along the deal to the borrower and collect his 0.5 percent, or up the loan’s interest rate to 6 percent and get a yield-spread premium of 0.75 percent in return for getting the bank a higher income stream. Generally, the consumer has no clue that the loan is costlier than it should be.</p></dd>
+                        <dd><p>If you think a mortgage broker can get you a better deal, you should first familiarize yourself with other offerings. You can find them in newspapers and the internet. You should also make inquiries at banks in your community. Arm yourself with your three credit reports and your credit scores when you ask about rates. That way, you’ll be able to tell if a rate you’re offered is out of line. When shopping for a loan, standardize the comparison by using the same variables such as down payment, points, and type of loan.</p></dd>
+                        <dt>4. Get Pre-Qulified Or Pre-Approved</dt>
+                        <dd><p>Any lender will be able to provide you with a pre-qualification letter after spending only a minimum amount of time with you. A pre-approval, on the other hand, will require more information and evaluation on the part of the lender. Regardless of which letter you attain, having either will make you appear better prepared to close on a house. Seller's often consider the quality of the buyer when they decide to negotiate. If the seller does not think you are serious, they may choose to not spend much time with you. A pre-qualification or pre-approval letter from a lender is a strong selling point for most sellers.</p></dd>
+                    </dl>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="WhatsMyHouseWorth">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h3 class="modal-title">What's My House Worth?</h3>
+                </div>
+                <div class="modal-body">
+                    <div style="box-sizing: content-box;width:300px;height:auto;padding:0 6px;margin:1em auto;font:normal normal normal 13px verdana,arial,sans-serif;overflow: hidden;background-color:#e2e0dc;border-radius: 5px;webkit-border-radius:5px;text-transform:none;text-indent:0;letter-spacing:0;text-align:center;">
+                        <div id="title" style="text-align:center;padding:6px 5px 6px 5px;background-color:#e2e0dc;">
+                            <a href="http://www.zillow.com/nashville-tn/home-values/#{scrnnm=Brenda-Shakir}" target="_blank" style="font-weight:bold;font-style:normal;font-size:13px;padding:0;text-decoration:none;color:#736c5f;text-decoration:none;line-height:1.2em;text-shadow: 0 1px #fff;">Home Value Estimate</a>
+                        </div>
+                        <div style="position:relative;text-align:center;font-family:verdana,arial,sans-serif;font-size:10px;background-color:#f7f5f4;border-radius: 5px; border: 1px solid;border-color:#d6d2cd;webkit-border-radius: 5px;padding: 1px;">
+                            <iframe scrolling="no" src="http://www.zillow.com/widgets/zestimate/ZestimateLargeWidget.htm?did=zillow-shv-small-iframe-widget&type=iframe&address=2502+Belmont+Blvd%2C+Nashville%2C+TN+37212&searchbox=yes&region=Nashville&skinnyWidget=true&tc=736c5f&bgc=f7f5f4" width="296" frameborder="0" height="360"></iframe>
+                        </div>
+                        <div id="footer-links-container" style="height:auto;padding-bottom:5px;margin:5px 5px 0;text-align:center;">
+                            <div style="height:auto;display:block;">
+                                <a href="http://www.zillow.com/nashville-tn/#{scrnnm=Brenda-Shakir}" target="_blank" style="font-size:11px;padding:0;width:285px;color:#736c5f;text-decoration:none;" scen="s1"><span class="region">Nashville</span> on Zillow</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!-- Javascript App Files -->
+    
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
