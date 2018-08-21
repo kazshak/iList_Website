@@ -1,0 +1,109 @@
+{
+    "address": "108 NEVERBREAK DR",
+    "frontImage": "lr1765296-1.jpg",
+    "price": 197000,
+    "sqft": 1875,
+    "beds": 3,
+    "baths": 1.5,
+    "closedDate": "",
+    "listDate": "2016-09-14",
+    "sold": false,
+    "salesPrice": 0,
+    "yearBuilt": 1969,
+    "lotSize": 0.53,
+    "flyer":"Residential_Buyer_Full_Report.pdf",
+    "pics":[
+        {
+            "file":"lr1765296-1.jpg",
+            "caption":"CHARMING HOME INCLUDES MANY UPGRADES, UPDATED KITCHEN, UPDATED BATHS, FULL FINISHED BASEMENT, ORIGINAL HARDWOODS UNDER CARPET IN HALL AND BEDROOMS, EXTRA STORAGE, NICE SHELVING IN GARAGE FOR STORAGE.  MUST SEE TODAY!  interior PICTURES COMING SOON!"
+        },
+        {
+            "file":"lr1765296-2.jpg",
+            "caption":"VERY NICE ESTABLISHED NEIGHBORHOOD. "
+        },
+        {
+            "file":"lr1765296-3.jpg",
+            "caption":"TWO GARAGE WITH OVER SIZED CARPORT, BEAUTIFUL LARGE YARD AND LANDSCAPE "
+        },
+        {
+            "file":"lr1765296_AMMI-5.jpg",
+            "caption":"WELCOME TO YOUR HOME! COVERED ENTRY"
+        },
+        {
+            "file":"lr1765296-6.jpg",
+            "caption":"BEAUTIFUL BACK YARD"
+        },
+        {
+            "file":"lr1765296-4.jpg",
+            "caption":"SO CLOSE TO OLD HICKORY LAKE AND PUBLIC ACCESS FOR FISHING AND A PERFECT SPOT TO PUT YOUR BOAT IN THE LAKE."
+        },
+        {
+            "file":"lr1765296-7.jpg",
+            "caption":"VERY CLOSE TO CHEEKWOOD MARINA"
+        },
+        {
+            "file":"lr1765296-8.jpg",
+            "caption":"Living room filled with natural light and beautiful wood flooring."
+        },
+        {
+            "file":"lr1765296-9.jpg",
+            "caption":"Very large eat in kitchen/dining room, light and bright with a built-in planning station."
+        },
+        {
+            "file":"lr1765296-10.jpg",
+            "caption":"Eat-in area looking into updated kitchen, Open and spacious"
+        },
+        {
+            "file":"lr1765296-14.jpg",
+            "caption":"Kitchen includes updated cabinetry, hardware, tile floor"
+        },
+        {
+            "file":"lr1765296-15.jpg",
+            "caption":"Kitchen has a lot of counter top space, stainless stove and a window for natural light"
+        },
+        {
+            "file":"lr1765296-12.jpg",
+            "caption":"Full bath with upgraded fixtures, lighting, hardware and tile flooring"
+        },
+        {
+            "file":"lr1765296-11.jpg",
+            "caption":"Updated tile bath/shower"
+        },
+        {
+            "file":"lr1765296_m9pk-16.jpg",
+            "caption":"Master has two windows....more natural light, ceiling fan and half bath"
+        },
+        {
+            "file":"lr1765296_OJAw-17.jpg",
+            "caption":"Updated master bath"
+        },
+        {
+            "file":"lr1765296_cOkG-18.jpg",
+            "caption":"Second bedroom, two windows, ceiling fan"
+        },
+        {
+            "file":"lr1765296_L8mw-19.jpg",
+            "caption":"new ceiling fans in two bedrooms"
+        },
+        {
+            "file":"lr1765296-20.jpg",
+            "caption":"Finished walkout  basement, great  man cave, family room or theater"
+        },
+        {
+            "file":"lr1765296-21.jpg",
+            "caption":"Built-in island/bar area with newer cabinets and tile floor, great for parties"
+        },
+        {
+            "file":"lr1765296_6RAu-22.jpg",
+            "caption":"part of the large room in finished basement , a good spot to put your desk/work area"
+        },
+        {
+            "file":"lr1765296_v1bN-23.jpg",
+            "caption":"Extra large storage closet"
+        },
+        {
+            "file":"lr1765296-24.jpg",
+            "caption":"Large half bath in basement with extra cabentry"
+        }
+    ]
+}
